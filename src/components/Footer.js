@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import { FaInstagram, FaFacebook, FaTwitter, FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -35,11 +35,8 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <FaGithub size={24} />
-              </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <FaYoutube size={24} />
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <FaLinkedin size={24} />
               </a>
             </div>
           </div>
@@ -57,14 +54,14 @@ const Footer = () => {
           <div className="w-full md:w-1/5 px-4 mb-8 md:mb-0">
             <h3 className="text-lg font-semibold mb-4 text-white">Services</h3>
             <ul className="space-y-2">
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Motor Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Health Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Home Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Cyber Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Pet Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Travel Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Engineering Insurance Solutions</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Business Insurance Solutions</Link></li>
+              <li><Link to="/motor-insurance" className="text-gray-400 hover:text-white transition-colors">Motor Insurance Solutions</Link></li>
+              <li><Link to="/health-insurance" className="text-gray-400 hover:text-white transition-colors">Health Insurance Solutions</Link></li>
+              <li><Link to="/home-insurance" className="text-gray-400 hover:text-white transition-colors">Home Insurance Solutions</Link></li>
+              <li><Link to="/cyber-insurance" className="text-gray-400 hover:text-white transition-colors">Cyber Insurance Solutions</Link></li>
+              <li><Link to="/pet-insurance" className="text-gray-400 hover:text-white transition-colors">Pet Insurance Solutions</Link></li>
+              <li><Link to="/travel-insurance" className="text-gray-400 hover:text-white transition-colors">Travel Insurance Solutions</Link></li>
+              <li><Link to="/engineering-insurance" className="text-gray-400 hover:text-white transition-colors">Engineering Insurance Solutions</Link></li>
+              <li><Link to="/business-insurance" className="text-gray-400 hover:text-white transition-colors">Business Insurance Solutions</Link></li>
             </ul>
           </div>
           

@@ -10,8 +10,6 @@ import DogIcon from '../assets/PetIns.png';
 import HealthIcon from '../assets/HealthIns.png';
 import { HiArrowRight } from 'react-icons/hi';
 
-
-
 const HowItWorksSection = () => {
   const solutions = [
     {
@@ -71,7 +69,9 @@ const HowItWorksSection = () => {
           <span className="inline-block px-6 py-2 rounded-full bg-blue-100 text-blue-800 text-sm font-medium mb-4">
             INSURTECH REIMAGINED
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Innovative Insurance Solutions for the Digital Age</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
+            Innovative Insurance Solutions for the Digital Age
+          </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Embrace the power of technology with our end-to-end digital insurance products
           </p>
@@ -79,13 +79,21 @@ const HowItWorksSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {solutions.map((solution, index) => (
-            <div key={index} className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 reveal">
-              <div className="p-4 rounded-full border-2 border-blue-500 hover:scale-105 transition-transform duration-300">
-                <img src={solution.icon} alt={solution.title} className="h-8 w-8 object-contain" />
+            <div key={index} className="flex flex-col justify-between h-[430px] text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 reveal">
+              <div>
+                <div className="p-4 rounded-full border-2 border-blue-500 mx-auto mb-4 hover:scale-105 transition-transform duration-300 w-fit">
+                  <img src={solution.icon} alt={solution.title} className="h-8 w-8 object-contain" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-gray-800 min-h-[60px]">{solution.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-6">
+
+                  {solution.description}
+                </p>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">{solution.title}</h3>
-              <p className="text-gray-600 mb-6">{solution.description}</p>
-              <Link to={solution.path} className="text-blue-500 hover:text-blue-700 font-medium inline-flex items-center transition-colors">
+              <Link
+                to={solution.path}
+                className="text-blue-500 hover:text-blue-700 font-medium inline-flex items-center transition-colors"
+              >
                 Explore <HiArrowRight className="w-4 h-4 ml-1" />
               </Link>
             </div>

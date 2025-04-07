@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
 import { FaPaperPlane } from 'react-icons/fa';
-import PaymentMethodsSection from '../components/PaymentMethodsSection';
 
 const Contact = () => {
   return (
@@ -9,7 +8,6 @@ const Contact = () => {
       <main className="flex-grow pt-20">
         <ContactHero />
         <ContactForm />
-        <PaymentMethodsSection />
         <FAQ />
       </main>
     </div>

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Star, Award, Users, Globe, TrendingUp, Shield } from 'lucide-react';
+import { Globe, TrendingUp, Shield } from 'lucide-react';
+//import { Users } from 'lucide-react';
+
 
 const About = () => {
   const location = useLocation();
@@ -26,8 +28,7 @@ const About = () => {
         <OurStory />
         <OurMission />
         <OurValues />
-        <TeamSection />
-        <Testimonials />
+        {/* <TeamSection /> */}
         <AboutCTA />
       </main>
     </div>
@@ -192,7 +193,7 @@ const OurValues = () => {
     </section>
   );
 };
-
+/*
 const TeamSection = () => {
   const team = [
     {
@@ -262,74 +263,8 @@ const TeamSection = () => {
     </section>
   );
 };
+*/
 
-const Testimonials = () => {
-  const testimonials = [
-    {
-      quote: "Click2Secure has revolutionized our document verification process. What used to take days now happens in seconds, with even greater accuracy.",
-      author: "User",
-      company: "Test",
-      rating: 5
-    },
-    {
-      quote: "Implementing Click2Secure's API into our banking platform was seamless. Their team provided excellent support throughout the integration process.",
-      author: "User",
-      company: "Test",
-      rating: 5
-    },
-    {
-      quote: "The level of security and fraud detection that Click2Secure provides has saved us millions in potential losses. Their system catches things that our previous solution missed.",
-      author: "User",
-      company: "Test",
-      rating: 4
-    }
-  ];
-
-  const renderStars = (rating) => {
-    return Array(5).fill(0).map((_, i) => (
-      <Star key={i} className={`h-5 w-5 ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`} fill={i < rating ? 'currentColor' : 'none'} />
-    ));
-  };
-
-  return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16 reveal">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">What Our Clients Say</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it - here's what businesses using Click2Secure have to say
-          </p>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div 
-              key={index} 
-              className="bg-white p-8 rounded-lg shadow-md reveal"
-              style={{ transitionDelay: `${index * 100}ms` }}
-            >
-              <div className="flex mb-4">
-                {renderStars(testimonial.rating)}
-              </div>
-              <p className="text-gray-700 mb-6 italic">"{testimonial.quote}"</p>
-              <div>
-                <p className="font-semibold text-gray-800">{testimonial.author}</p>
-                <p className="text-gray-600">{testimonial.company}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-        
-        <div className="mt-12 text-center reveal">
-          <div className="inline-flex items-center bg-blue-50 px-6 py-3 rounded-full">
-            <Award className="h-6 w-6 text-blue-600 mr-2" />
-            <span className="text-blue-800 font-medium">processed 500,000+ costumers across Mena region</span>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
 
 const AboutCTA = () => {
   return (

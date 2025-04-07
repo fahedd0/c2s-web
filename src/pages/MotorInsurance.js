@@ -8,32 +8,32 @@ const MotorInsurance = () => {
     {
       icon: <Car className="h-6 w-6 text-blue-500" />,
       title: "Coverage Options",
-      description: "Choose from Third Party Liability (TPL) or comprehensive full-risk insurance options tailored to your vehicle needs."
+      description: "Select from Third Party Liability (TPL) or comprehensive plans tailored to your vehicle type and usage."
     },
     {
       icon: <Shield className="h-6 w-6 text-blue-500" />,
-      title: "Multi-Provider Comparison",
-      description: "Compare quotes from multiple trusted insurance providers across the UAE in real-time on a single platform."
+      title: "Streamlined Digital Access",
+      description: "Manage quotes, documents, and renewals easily through your Ameni dashboard."
     },
     {
       icon: <CreditCard className="h-6 w-6 text-blue-500" />,
       title: "Competitive Premiums",
-      description: "Access exclusive online discounts and seasonal offers from top insurance partners for optimal value."
+      description: "Access exclusive online offers and seasonal discounts from leading providers."
     },
     {
       icon: <Clock className="h-6 w-6 text-blue-500" />,
       title: "Instant Policy Issuance",
-      description: "Receive your policy documents within minutes of purchase with our streamlined digital process."
+      description: "Secure and receive your motor insurance policy digitally in just minutes."
     },
     {
       icon: <Wrench className="h-6 w-6 text-blue-500" />,
       title: "24/7 Roadside Assistance",
-      description: "Get help whenever you need it with included roadside assistance services for emergencies and breakdowns."
+      description: "Enjoy emergency support anytime with included roadside services."
     },
     {
       icon: <CheckSquare className="h-6 w-6 text-blue-500" />,
       title: "Agency Repair Options",
-      description: "Choose between agency or non-agency repair options to suit your preferences and budget requirements."
+      description: "Choose between agency or non-agency repairs based on your preferences and budget."
     }
   ];
 
@@ -78,7 +78,7 @@ const MotorInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Motor Insurance Solutions"
-      description="Expand your reach by offering customers a seamless online experience for motor insurance policies. Our platform enables you to provide TPL and full risk coverage with attractive discounts and rewards while maintaining the highest security standards."
+      description="Experience fast, reliable motor insurance designed for the digital age. Ameni simplifies the way individuals and businesses access vehicle coverage, offering flexible options that suit every driver. Whether you need basic protection or full-risk coverage, our platform ensures instant access to trusted insurance providers, competitive premiums, and real-time support. Enjoy seamless policy issuance, flexible repair options, and enhanced roadside assistance — all in one place."
       icon={CarIcon}
       features={features}
       benefits={benefits}

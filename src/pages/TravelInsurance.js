@@ -8,32 +8,32 @@ const TravelInsurance = () => {
     {
       icon: <Stethoscope className="h-6 w-6 text-blue-500" />,
       title: "Medical Emergency Coverage",
-      description: "Comprehensive coverage for medical emergencies abroad, including hospitalization, emergency care, and medical evacuation."
+      description: "Covers hospital stays, urgent care, and medical evacuation abroad."
     },
     {
       icon: <Clock className="h-6 w-6 text-blue-500" />,
       title: "Trip Cancellation Protection",
-      description: "Reimbursement for non-refundable trip costs if you need to cancel due to covered reasons like illness or emergencies."
+      description: "Reimburses trip costs for illness, emergencies, or other valid cancellations."
     },
     {
       icon: <Briefcase className="h-6 w-6 text-blue-500" />,
       title: "Baggage Protection",
-      description: "Coverage for lost, damaged, or delayed baggage, ensuring you're compensated for essential items and personal belongings."
+      description: "Compensates for lost, stolen, delayed, or damaged luggage."
     },
     {
       icon: <Plane className="h-6 w-6 text-blue-500" />,
       title: "Flight Delay Compensation",
-      description: "Financial assistance for accommodation and meals in case of significant flight delays or cancellations."
+      description: "Covers accommodation and meals during long delays or cancellations."
     },
     {
       icon: <ShieldCheck className="h-6 w-6 text-blue-500" />,
       title: "COVID-19 Coverage",
-      description: "Protection for COVID-related medical expenses and trip disruptions, providing peace of mind during pandemic travel."
+      description: "Protection for pandemic-related expenses and disruptions while traveling."
     },
     {
       icon: <Globe className="h-6 w-6 text-blue-500" />,
       title: "24/7 Global Assistance",
-      description: "Round-the-clock support services including emergency assistance, travel advice, and concierge services worldwide."
+      description: "Round-the-clock emergency, travel, and concierge support anywhere in the world."
     }
   ];
 
@@ -78,7 +78,7 @@ const TravelInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Travel Insurance Solutions"
-      description="Offer worry-free travel experiences with our customizable travel insurance packages. Cover medical emergencies, trip cancellations, lost luggage, and more through our secure and user-friendly digital platform."
+      description="Travel with confidence using Ameni’s smart, digital-first travel insurance options. Whether it’s a short getaway or a global adventure, our platform helps you find protection for unexpected events — from medical emergencies and flight delays to lost baggage and trip cancellations. With user-friendly access, tailored coverage, and 24/7 support, you can enjoy your journey while we take care of the “what-ifs.” Stay protected, stay worry-free, wherever you go."
       icon={PlaneIcon}
       features={features}
       benefits={benefits}

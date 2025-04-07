@@ -8,32 +8,32 @@ const PetInsurance = () => {
     {
       icon: <Stethoscope className="h-6 w-6 text-blue-500" />,
       title: "Veterinary Care Coverage",
-      description: "Coverage for unexpected vet bills, emergency treatments, surgeries, and hospital stays for your pets."
+      description: "Covers emergency vet visits, surgeries, and hospital stays for your pets."
     },
     {
       icon: <Dog className="h-6 w-6 text-blue-500" />,
       title: "Accident & Illness Protection",
-      description: "Comprehensive protection against injuries, illnesses, and chronic conditions that affect your pet's health."
+      description: "Protection against injuries, sickness, and chronic conditions."
     },
     {
       icon: <Pill className="h-6 w-6 text-blue-500" />,
       title: "Medication Coverage",
-      description: "Financial assistance for prescribed medications, including those for long-term or chronic conditions."
+      description: "Support for prescribed medications, including long-term or recurring treatments."
     },
     {
       icon: <Activity className="h-6 w-6 text-blue-500" />,
       title: "Preventive Care Options",
-      description: "Optional coverage for routine check-ups, vaccinations, dental treatments, and preventive medications."
+      description: "Optional coverage for checkups, vaccines, dental, and routine care."
     },
     {
       icon: <Smile className="h-6 w-6 text-blue-500" />,
       title: "Alternative Therapy Coverage",
-      description: "Access to alternative treatments like physiotherapy, acupuncture, and hydrotherapy when recommended by your vet."
+      description: "Covers vet-recommended treatments like acupuncture or hydrotherapy."
     },
     {
       icon: <Heart className="h-6 w-6 text-blue-500" />,
       title: "Multi-Pet Discounts",
-      description: "Special rates and discounts when you insure multiple pets under the same policy or with the same provider."
+      description: "Save with bundled plans when insuring more than one pet."
     }
   ];
 
@@ -78,7 +78,7 @@ const PetInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Pet Insurance Solutions"
-      description="Protect beloved family pets with comprehensive insurance coverage for veterinary care, accidents, and illnesses. Our digital platform simplifies policy management while providing peace of mind for pet owners."
+      description="Give your pets the care they deserve with Ameni’s seamless digital pet insurance experience. From routine checkups to emergency treatments, our platform offers a range of customizable plans to support your pet’s health at every stage. Easily access coverage for illnesses, accidents, medications, and even alternative therapies — all managed online in just a few clicks. Whether you’re a first-time pet parent or managing multiple pets, we make insurance simple, affordable, and tailored for peace of mind."
       icon={DogIcon}
       features={features}
       benefits={benefits}

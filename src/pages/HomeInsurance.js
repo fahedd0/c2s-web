@@ -8,32 +8,32 @@ const HomeInsurance = () => {
     {
       icon: <Home className="h-6 w-6 text-blue-500" />,
       title: "Property Coverage",
-      description: "Complete protection for your building structure against fire, water damage, and natural disasters."
+      description: "Covers structural damage from fire, flooding, water leaks, or natural disasters."
     },
     {
       icon: <Shield className="h-6 w-6 text-blue-500" />,
       title: "Contents Protection",
-      description: "Coverage for furniture, electronics, and valuable personal belongings against theft and accidental damage."
+      description: "Protects valuables like electronics, furniture, and personal items from theft or damage."
     },
     {
       icon: <Umbrella className="h-6 w-6 text-blue-500" />,
       title: "Liability Coverage",
-      description: "Protection against tenant liability and legal expenses if someone is injured on your property."
+      description: "Coverage for tenant liability and legal expenses related to property incidents."
     },
     {
       icon: <Wrench className="h-6 w-6 text-blue-500" />,
       title: "Emergency Services",
-      description: "24/7 access to emergency home services for plumbing, electrical, or locksmith issues."
+      description: "24/7 support for plumbing, electrical, or lock-related emergencies."
     },
     {
       icon: <Bell className="h-6 w-6 text-blue-500" />,
       title: "Alternative Accommodation",
-      description: "Coverage for temporary housing expenses if your home becomes uninhabitable due to a covered event."
+      description: "Covers temporary housing costs if your home becomes uninhabitable."
     },
     {
       icon: <CreditCard className="h-6 w-6 text-blue-500" />,
       title: "Flexible Payment Options",
-      description: "Choose from various payment plans with exclusive online discounts and competitive premiums."
+      description: "Multiple payment plans with access to discounts and competitive pricing."
     }
   ];
 
@@ -78,7 +78,7 @@ const HomeInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Home Insurance Solutions"
-      description="Stay competitive by enabling customers to purchase home insurance policies online. Our advanced technology helps you streamline the policy purchasing process while offering attractive discounts and rewards in a secure environment."
+      description="Protect your home with confidence through Ameni’s digital-first insurance experience. Whether you own or rent, our platform connects you to reliable home coverage options that safeguard your property, belongings, and liabilities — all accessible online in minutes. From fire and flood protection to theft and temporary housing coverage, our technology simplifies the way you secure what matters most. Enjoy flexibility, transparency, and full control over your insurance journey."
       icon={HomeIcon}
       features={features}
       benefits={benefits}

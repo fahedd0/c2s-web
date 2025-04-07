@@ -1,35 +1,52 @@
 import React from 'react';
-// import client logo
+import ABNIC from '../assets/ABNIC.png';
+import ALLIANZ from '../assets/ALLIANZ.png';
+import FIDELITY from '../assets/FIDELITY.png';
+import GOVUAQ from '../assets/GOVUAQ.png';
+import NEXTCARE from '../assets/NEXTCARE.png';
+import RAKBANK from '../assets/RAKBANK.png';
+import RAKIns from '../assets/RAKIns.png';
+import UAQFTZ from '../assets/UAQFTZ.png';
+import UAQU from '../assets/UAQU.png';
+
 
 const TrustedClientsSection = () => {
   const clients = [
     {
-      name: "Client1",
-      logoText: "Client1"
+      name: "Al Buhaira National Insurance Co.",
+      logo: ABNIC
     },
     {
-      name: "Client2",
-      logoText: "Client2"
+      name: "Allianz",
+      logo: ALLIANZ
     },
     {
-      name: "Client3",
-      logoText: "Client3"
+      name: "Fidelity United",
+      logo: FIDELITY
     },
     {
-      name: "Client4",
-      logoText: "Client4"
+      name: "Government of Umm Al Quwain",
+      logo: GOVUAQ
     },
     {
-      name: "Client5",
-      logoText: "Client5"
+      name: "NEXTCARE",
+      logo: NEXTCARE
     },
     {
-      name: "Client6",
-      logoText: "Client6"
+      name: "RAKBANK",
+      logo: RAKBANK
     },
     {
-      name: "Client7",
-      logoText: "Client7"
+      name: "RAK Insurance",
+      logo: RAKIns
+    },
+    {
+      name: "UAQ Free Zone",
+      logo: UAQFTZ
+    },
+    {
+      name: "Umm Al Quwain University",
+      logo: UAQU
     },
   ];
 
@@ -63,9 +80,11 @@ const TrustedClientsSection = () => {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               {/* logos */}
-              <div className="text-2xl font-bold text-gray-500 p-4 min-w-40 text-center hover:text-blue-600 transition-all duration-300">
-                {client.logoText}
-              </div>
+              <img
+                src={client.logo}
+                alt={client.name}
+                className="h-12 w-auto object-contain transition-transform duration-300 hover:scale-105"
+              />
               <div className="text-sm text-gray-400 mt-2">{client.name}</div>
             </div>
           ))}

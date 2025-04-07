@@ -8,32 +8,32 @@ const CyberInsurance = () => {
     {
       icon: <ShieldAlert className="h-6 w-6 text-blue-500" />,
       title: "Data Breach Protection",
-      description: "Coverage for costs associated with data breaches, including customer notification, credit monitoring, and recovery services."
+      description: "Covers costs related to customer notification, recovery, and credit monitoring."
     },
     {
       icon: <Lock className="h-6 w-6 text-blue-500" />,
       title: "Ransomware Coverage",
-      description: "Protection against ransomware attacks with coverage for ransom payments, system restoration, and business interruption."
+      description: "Includes ransom payments, data restoration, and system downtime protection."
     },
     {
       icon: <Server className="h-6 w-6 text-blue-500" />,
       title: "Forensic Investigation",
-      description: "Coverage for professional digital forensic services to investigate breaches, determine causes, and prevent future incidents."
+      description: "Access expert services to trace, analyze, and prevent breach incidents."
     },
     {
       icon: <Scale className="h-6 w-6 text-blue-500" />,
       title: "Legal Expense Coverage",
-      description: "Financial protection for legal fees, regulatory fines, and penalties resulting from cyber incidents and data breaches."
+      description: "Covers regulatory fines, penalties, and cyber-related legal fees."
     },
     {
       icon: <GanttChart className="h-6 w-6 text-blue-500" />,
       title: "Business Interruption",
-      description: "Compensation for lost income and extra expenses during system downtime caused by cyber attacks."
+      description: "Protects income and covers expenses during cyber-related outages."
     },
     {
       icon: <LifeBuoy className="h-6 w-6 text-blue-500" />,
       title: "Incident Response Team",
-      description: "Access to cyber security experts who provide immediate assistance during cyber incidents to minimize damage."
+      description: "On-call cyber specialists for immediate damage control and recovery."
     }
   ];
 
@@ -78,7 +78,7 @@ const CyberInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Cyber Insurance Solutions"
-      description="Meet the growing demand for cyber insurance with our state-of-the-art platform. Offer comprehensive coverage, competitive pricing, and superior security to stand out in a rapidly evolving market."
+      description="In today’s connected world, cyber threats are constant — and costly. Ameni’s Cyber Insurance Solutions offer digital-first protection designed for businesses of all sizes, helping you stay secure, resilient, and compliant. From ransomware attacks to data breaches, our platform connects you with specialized coverage that minimizes downtime, safeguards your reputation, and provides expert support when it matters most. Secure your digital environment with fast, flexible insurance built for the modern threat landscape."
       icon={ShieldIcon}
       features={features}
       benefits={benefits}

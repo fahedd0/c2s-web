@@ -8,32 +8,32 @@ const EngineeringInsurance = () => {
     {
       icon: <Construction className="h-6 w-6 text-blue-500" />,
       title: "Contractors' All Risks (CAR)",
-      description: "Comprehensive coverage for civil engineering projects protecting against damage to property, materials, and third-party liabilities."
+      description: "Covers property damage, material losses, and third-party liabilities on engineering sites."
     },
     {
       icon: <HardHat className="h-6 w-6 text-blue-500" />,
       title: "Erection All Risks (EAR)",
-      description: "Specialized protection for mechanical and electrical installation projects, covering equipment during erection and testing phases."
+      description: "Protects mechanical/electrical installations during setup and testing phases."
     },
     {
       icon: <Wrench className="h-6 w-6 text-blue-500" />,
       title: "Machinery Breakdown",
-      description: "Coverage for sudden and unforeseen damage to machinery, including repair costs and related expenses during operation."
+      description: "Covers repairs and losses due to unforeseen machinery damage during use."
     },
     {
       icon: <Building className="h-6 w-6 text-blue-500" />,
       title: "Electronic Equipment Protection",
-      description: "Safeguards for sensitive electronic equipment against electrical, mechanical, and physical damage during installation and use."
+      description: "Shields sensitive electronics from mechanical, electrical, and accidental damage."
     },
     {
       icon: <Clock className="h-6 w-6 text-blue-500" />,
       title: "Delayed Startup Coverage",
-      description: "Financial protection against project delays caused by insured events, including advanced loss of profit (ALOP) coverage."
+      description: "Compensation for income loss due to project delays caused by insured events."
     },
     {
       icon: <Shield className="h-6 w-6 text-blue-500" />,
       title: "Liability Protection",
-      description: "Coverage against third-party claims for property damage or bodily injury arising from construction or engineering activities."
+      description: "Covers third-party injury or property damage from construction-related activities."
     }
   ];
 
@@ -78,7 +78,7 @@ const EngineeringInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Engineering Insurance Solutions"
-      description="Provide specialized coverage for engineering projects, machinery, and equipment. Our platform enables comprehensive risk assessment and policy management for contractors, developers, and engineering firms."
+      description="Ameni supports engineering firms, developers, and contractors with specialized digital insurance solutions designed for high-risk, high-value projects. Whether it’s civil, mechanical, or electrical works, our platform helps you safeguard your equipment, materials, and workforce from unexpected disruptions. With fast access to expert-backed policies, Ameni ensures smoother operations, minimized downtime, and enhanced risk control — all through a modern, streamlined experience."
       icon={CogIcon}
       features={features}
       benefits={benefits}

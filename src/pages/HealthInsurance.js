@@ -8,32 +8,32 @@ const HealthInsurance = () => {
     {
       icon: <Heart className="h-6 w-6 text-blue-500" />,
       title: "Comprehensive Coverage",
-      description: "Complete health protection including hospitalization, outpatient care, medications, and specialized treatments."
+      description: "Protection for hospitalization, outpatient visits, diagnostics, medications, and treatments."
     },
     {
       icon: <Users className="h-6 w-6 text-blue-500" />,
       title: "Family Plans",
-      description: "Extend coverage to family members with customizable plans that meet each person's specific health needs."
+      description: "Flexible options to cover spouses, children, or dependents under one unified plan."
     },
     {
       icon: <Activity className="h-6 w-6 text-blue-500" />,
       title: "Wellness Programs",
-      description: "Preventive care benefits including fitness programs, health screenings, and lifestyle coaching."
+      description: "Fitness, screenings, and lifestyle coaching to support long-term well-being."
     },
     {
       icon: <Clock className="h-6 w-6 text-blue-500" />,
       title: "24/7 Telemedicine",
-      description: "Access to medical professionals around the clock through our secure digital platform."
+      description: "Virtual access to certified doctors anytime, anywhere through your device."
     },
     {
       icon: <Shield className="h-6 w-6 text-blue-500" />,
       title: "Maternity Coverage",
-      description: "Comprehensive maternity benefits including prenatal care, delivery, and postnatal services."
+      description: "Inclusive care for prenatal, delivery, and postnatal services."
     },
     {
       icon: <Award className="h-6 w-6 text-blue-500" />,
       title: "International Coverage",
-      description: "Emergency medical coverage when traveling internationally with direct billing to network hospitals."
+      description: "Global emergency care with network hospital access and direct billing support."
     }
   ];
 
@@ -78,7 +78,7 @@ const HealthInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Health Insurance Solutions"
-      description="Digitally transform your health insurance offerings with customizable coverage options for Dubai & Northern Emirates visa residents. Leverage our platform to provide user-friendly and secure services to a wider audience."
+      description="Empower your health journey with digital-first insurance options designed for individuals, families, and professionals. Ameni simplifies how you access quality healthcare protection, connecting you to customizable plans that cover everything from emergencies to preventive care. With instant policy access, 24/7 digital support, and trusted providers, we make it easier than ever to secure the coverage you need — wherever life takes you."
       icon={HealthIcon}
       features={features}
       benefits={benefits}

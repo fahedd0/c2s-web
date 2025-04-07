@@ -8,32 +8,32 @@ const BusinessInsurance = () => {
     {
       icon: <Building className="h-6 w-6 text-blue-500" />,
       title: "Property Insurance",
-      description: "Comprehensive protection for business premises, equipment, inventory, and assets against fire, theft, and natural disasters."
+      description: "Protects your office, equipment, and inventory from fire, theft, and natural disasters."
     },
     {
       icon: <ShieldCheck className="h-6 w-6 text-blue-500" />,
       title: "Liability Coverage",
-      description: "Protection against claims of bodily injury, property damage, or professional errors and omissions that occur in your business operations."
+      description: "Covers legal claims for injury, damage, or professional errors during business operations."
     },
     {
       icon: <Users className="h-6 w-6 text-blue-500" />,
       title: "Employee Protection",
-      description: "Coverage options for workers' compensation, employee benefits, and workplace injury claims to safeguard your team."
+      description: "Includes worker compensation, benefits, and injury claims support."
     },
     {
       icon: <Clock className="h-6 w-6 text-blue-500" />,
       title: "Business Interruption",
-      description: "Financial support for lost income and operating expenses during temporary closures due to covered events."
+      description: "Covers income loss and expenses during forced operational downtime."
     },
     {
       icon: <Truck className="h-6 w-6 text-blue-500" />,
       title: "Fleet Insurance",
-      description: "Comprehensive or third-party coverage for business vehicles and transportation needs with flexible policy options."
+      description: "Insures company vehicles with flexible third-party and comprehensive plans."
     },
     {
       icon: <FileText className="h-6 w-6 text-blue-500" />,
       title: "Professional Indemnity",
-      description: "Protection against claims of negligence, errors, or inadequate work in your professional services and advice."
+      description: "Safeguards against negligence or mistakes in services or professional advice."
     }
   ];
 
@@ -78,7 +78,7 @@ const BusinessInsurance = () => {
   return (
     <InsuranceSolutionTemplate 
       title="Business Insurance Solutions"
-      description="Safeguard businesses with tailored insurance packages covering property, liability, professional indemnity, and business interruption. Our digital solutions streamline commercial coverage with enhanced security and efficiency."
+      description="Ameni helps modern businesses stay resilient with customizable insurance solutions designed to protect people, property, and operations. From small startups to large enterprises, our platform offers flexible policies covering everything from liability to employee protection. Get insured against unforeseen disruptions, legal claims, or asset loss all through a secure and intuitive digital experience. Simplify your risk management while staying compliant and confident, every step of the way."
       icon={BriefcaseIcon}
       features={features}
       benefits={benefits}
