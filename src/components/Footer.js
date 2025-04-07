@@ -71,7 +71,6 @@ const Footer = () => {
               <li className="text-gray-400">Dubai Silicon Oasis</li>
               <li className="text-gray-400">Dubai, United Arab Emirates</li>
               <li><a href="mailto:info@click2secure.me" className="text-gray-400 hover:text-white transition-colors">info@click2secure.me</a></li>
-              <li><a href="tel:+11234567890" className="text-gray-400 hover:text-white transition-colors">+1 (123) 456-7890</a></li>
             </ul>
           </div>
         </div>

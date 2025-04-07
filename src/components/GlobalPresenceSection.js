@@ -16,48 +16,45 @@ const GlobalPresenceSection = () => {
           <div className="bg-white p-8 rounded-lg shadow-sm reveal" style={{ transitionDelay: '100ms' }}>
             <div className="flex items-center mb-4">
               <Globe className="h-6 w-6 text-blue-600 mr-2" />
-              <h3 className="text-xl font-bold text-gray-800">Dubai HQ</h3>
+              <h3 className="text-xl font-bold text-gray-800">Dubai</h3>
             </div>
             <p className="text-gray-600 mb-4">
-              Street<br />
-              Umm Al Quwain<br />
+              104, 1st floor, Donna Towers<br />
+              Dubai, Silicon Oasis<br />
               UAE
             </p>
             <p className="text-gray-600">
-              <span className="font-medium">Phone:</span> +1 (123) 456-7890<br />
-              <span className="font-medium">Email:</span> 1@click2secure.me
+              <span className="font-medium">Email:</span> info@click2secure.me
             </p>
           </div>
           
           <div className="bg-white p-8 rounded-lg shadow-sm reveal" style={{ transitionDelay: '200ms' }}>
             <div className="flex items-center mb-4">
               <Globe className="h-6 w-6 text-blue-600 mr-2" />
-              <h3 className="text-xl font-bold text-gray-800">Abu Dhabi Branch</h3>
+              <h3 className="text-xl font-bold text-gray-800">Abu Dhabi</h3>
             </div>
             <p className="text-gray-600 mb-4">
-              Street<br />
-              Abu Dhabi<br />
+              1017, 10th Floor, Madinat Zayed Tower<br />
+              Muroor Road, Abu Dhabi<br />
               UAE
             </p>
             <p className="text-gray-600">
-              <span className="font-medium">Phone:</span> +44 20 1234 5678<br />
-              <span className="font-medium">Email:</span> 2@click2secure.me
+              <span className="font-medium">Email:</span> info@click2secure.me
             </p>
           </div>
           
           <div className="bg-white p-8 rounded-lg shadow-sm reveal" style={{ transitionDelay: '300ms' }}>
             <div className="flex items-center mb-4">
               <Globe className="h-6 w-6 text-blue-600 mr-2" />
-              <h3 className="text-xl font-bold text-gray-800">Ras Al Khaimah Office</h3>
+              <h3 className="text-xl font-bold text-gray-800">Umm Al Quwain</h3>
             </div>
             <p className="text-gray-600 mb-4">
-              Street<br />
-              Ras Al Khaima<br />
+              G001-G002, Atrium Tower<br />
+              UAQ Free Trade Zone, Umm Al Quwain<br />
               UAE
             </p>
             <p className="text-gray-600">
-              <span className="font-medium">Phone:</span> +65 6123 4567<br />
-              <span className="font-medium">Email:</span> 3@click2secure.me
+              <span className="font-medium">Email:</span> info@click2secure.me
             </p>
           </div>
         </div>

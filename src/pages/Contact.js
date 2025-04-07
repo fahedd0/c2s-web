@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
+import { Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 import { FaPaperPlane } from 'react-icons/fa';
 
 const Contact = () => {
@@ -50,7 +50,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Here you would typically send the data to your backend
+    // Here you send the data to your backend
     alert('Thank you for your message. We will get back to you shortly!');
     // Reset form
     setFormData({
@@ -77,13 +77,7 @@ const ContactForm = () => {
                 
                 <div className="space-y-6">
                   <div className="flex items-start">
-                    <Phone className="h-6 w-6 text-blue-300 mr-3 mt-1" />
-                    <div>
-                      <h3 className="font-semibold">Phone</h3>
-                      <p className="text-blue-100">+1 (123) 456-7890</p>
-                    </div>
                   </div>
-                  
                   <div className="flex items-start">
                     <Mail className="h-6 w-6 text-blue-300 mr-3 mt-1" />
                     <div>
