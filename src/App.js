@@ -22,17 +22,15 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 
-// ScrollToTop component to handle scroll position on navigation
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    
+
     const handleScrollReveal = () => {
       const reveals = document.querySelectorAll('.reveal');
       reveals.forEach(element => {
-        element.classList.remove('active');
         const windowHeight = window.innerHeight;
         const elementTop = element.getBoundingClientRect().top;
         if (elementTop < windowHeight - 100) {
@@ -41,14 +39,14 @@ const ScrollToTop = () => {
       });
     };
 
-    // Small timeout
+    handleScrollReveal();
+
     setTimeout(() => {
       handleScrollReveal();
     }, 100);
 
-    // Scroll listener
     window.addEventListener('scroll', handleScrollReveal);
-    
+
     return () => {
       window.removeEventListener('scroll', handleScrollReveal);
     };
@@ -56,6 +54,7 @@ const ScrollToTop = () => {
 
   return null;
 };
+
 
 function App() {
   return (

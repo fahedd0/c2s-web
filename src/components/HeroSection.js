@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import click2secureLogo from '../assets/logo2.png';
-import meLogo from '../assets/logo3.png';
-
+import meLogo from '../assets/squares.png';
 import { FileText, ShieldCheck, SlidersHorizontal, Network } from 'lucide-react';
 
 const HeroSection = () => {
@@ -43,7 +41,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white overflow-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -inset-[10px] opacity-30">
@@ -100,10 +98,9 @@ const HeroSection = () => {
               <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 opacity-20 blur-xl"></div>
               <div className="bg-white bg-opacity-10 p-8 backdrop-blur-xl border border-white border-opacity-20 rounded-xl shadow-2xl relative z-10">
                 <div className="flex items-center mb-8">
-                  <div className="w-14 h-14 rounded-xl mr-4 overflow-hidden">
-                    <img src={meLogo} alt="ME Logo" className="w-full h-full object-cover" />
+                  <div className="bg-white rounded-xl p-2 mr-4 shadow-sm">
+                    <img src={meLogo} alt="Squares Logo" className="w-10 h-10 object-contain" />
                   </div>
-
                   <div>
                     <h3 className="text-2xl font-inter">Trusted by Industry Leaders</h3>
                     <p className="text-blue-200">Securing documents across insurance, banking, and healthcare</p>
@@ -126,9 +123,7 @@ const HeroSection = () => {
                   <p className="text-center text-blue-200 text-sm">
                     processed 500,000+ costumers across Mena region
                   </p>
-                  <div className="flex justify-center mt-4 space-x-8">
-                    <img src={click2secureLogo} alt="Click 2 Secure" className="h-8 md:h-10 object-contain opacity-80 hover:opacity-100 transition-opacity duration-300" />
-                  </div>
+                  
                 </div>
               </div>
             </div>
