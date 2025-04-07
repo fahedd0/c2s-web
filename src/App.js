@@ -29,7 +29,6 @@ const ScrollToTop = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     
-    // Reinitialize scroll reveal animations when route changes
     const handleScrollReveal = () => {
       const reveals = document.querySelectorAll('.reveal');
       reveals.forEach(element => {
@@ -42,12 +41,12 @@ const ScrollToTop = () => {
       });
     };
 
-    // Set a small timeout to ensure DOM is updated
+    // Small timeout
     setTimeout(() => {
       handleScrollReveal();
     }, 100);
 
-    // Also add scroll listener for this route
+    // Scroll listener
     window.addEventListener('scroll', handleScrollReveal);
     
     return () => {

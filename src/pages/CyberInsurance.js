@@ -4,7 +4,6 @@ import ShieldIcon from '../assets/CyberIns.png';
 import { ShieldAlert, Lock, Server, GanttChart, Scale, LifeBuoy } from 'lucide-react';
 
 const CyberInsurance = () => {
-  // Define the content specific to cyber insurance
   const features = [
     {
       icon: <ShieldAlert className="h-6 w-6 text-blue-500" />,

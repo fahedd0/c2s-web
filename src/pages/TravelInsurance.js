@@ -4,7 +4,6 @@ import PlaneIcon from '../assets/TravelIns.png';
 import { Plane, ShieldCheck, Stethoscope, Clock, Briefcase, Globe } from 'lucide-react';
 
 const TravelInsurance = () => {
-  // Define the content specific to travel insurance
   const features = [
     {
       icon: <Stethoscope className="h-6 w-6 text-blue-500" />,

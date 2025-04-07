@@ -4,7 +4,6 @@ import CarIcon from '../assets/CarIns.png';
 import { Shield, Car, CreditCard, Clock, CheckSquare, Wrench } from 'lucide-react';
 
 const MotorInsurance = () => {
-  // Define the content specific to motor insurance based on the detailed description
   const features = [
     {
       icon: <Car className="h-6 w-6 text-blue-500" />,

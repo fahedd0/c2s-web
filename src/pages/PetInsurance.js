@@ -4,7 +4,6 @@ import DogIcon from '../assets/PetIns.png';
 import { Heart, Stethoscope, Dog, Pill, Activity, Smile } from 'lucide-react';
 
 const PetInsurance = () => {
-  // Define the content specific to pet insurance
   const features = [
     {
       icon: <Stethoscope className="h-6 w-6 text-blue-500" />,

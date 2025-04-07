@@ -4,7 +4,7 @@ import { ChevronUp } from 'lucide-react';
 const BackToTop = () => {
   const [showButton, setShowButton] = useState(false);
 
-  // Show button when user scrolls down 300px
+  // Show button when user scrolls down
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 300) {

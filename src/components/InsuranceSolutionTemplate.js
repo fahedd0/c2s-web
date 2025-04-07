@@ -4,7 +4,7 @@ import { ChevronUp } from 'lucide-react';
 const InsuranceSolutionTemplate = ({ title, description, icon, features, benefits, faqs }) => {
   const [showBackToTop, setShowBackToTop] = useState(false);
 
-  // Show button when user scrolls down 300px
+  // Show button when user scrolls
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 300) {

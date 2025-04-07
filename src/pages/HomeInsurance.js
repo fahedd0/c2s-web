@@ -4,7 +4,6 @@ import HomeIcon from '../assets/HomeIns.png';
 import { Home, Shield, Umbrella, Wrench, Bell, CreditCard } from 'lucide-react';
 
 const HomeInsurance = () => {
-  // Define the content specific to home insurance
   const features = [
     {
       icon: <Home className="h-6 w-6 text-blue-500" />,

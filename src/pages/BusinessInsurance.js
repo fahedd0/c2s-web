@@ -4,7 +4,6 @@ import BriefcaseIcon from '../assets/BusinessIns.png';
 import { Building, ShieldCheck, Users, Truck, FileText, Clock } from 'lucide-react';
 
 const BusinessInsurance = () => {
-  // Define the content specific to business insurance
   const features = [
     {
       icon: <Building className="h-6 w-6 text-blue-500" />,

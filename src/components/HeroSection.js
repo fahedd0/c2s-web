@@ -14,7 +14,7 @@ const HeroSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Email submitted:', email);
-    // Here you would typically send the email to your backend
+    // placeholder for email storage
     alert('Thank you for your interest! We will contact you shortly.');
     setEmail('');
   };
@@ -136,17 +136,19 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Wave separator */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="w-full h-auto transform translate-y-1">
-          <path fill="#f9fafb" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,234.7C960,235,1056,181,1152,170.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-        </svg>
-      </div>
+     {/* Wave separator */}
+    <div className="absolute bottom-0 left-0 right-0">
+      <svg viewBox="0 0 1440 320" className="w-full h-auto translate-y-1">
+        <path
+          fill="#f9fafb"
+          d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,234.7C960,235,1056,181,1152,170.7C1248,160,1344,192,1392,208L1440,224V320H0Z"
+        />
+      </svg>
+    </div>
     </section>
   );
 };
 
-// Non-flippable Feature Card Component from old code
 const FeatureCard = ({ icon, title, description }) => (
   <div className="bg-blue-800 bg-opacity-50 p-5 rounded-xl flex flex-col hover:bg-opacity-70 transition-all duration-300 transform hover:-translate-y-1 shadow-md">
     <div className="flex items-center mb-2">

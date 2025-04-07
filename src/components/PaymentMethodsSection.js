@@ -1,5 +1,4 @@
 import React from 'react';
-// Import the card logos
 import visaLogo from '../assets/visa.png';
 import mastercardLogo from '../assets/mastercard.png';
 import unionpayLogo from '../assets/unionpay.png';

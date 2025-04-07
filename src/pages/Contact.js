@@ -1,6 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
+import { FaPaperPlane } from 'react-icons/fa';
 import PaymentMethodsSection from '../components/PaymentMethodsSection';
 
 const Contact = () => {
@@ -209,7 +209,7 @@ const ContactForm = () => {
                       className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                     />
                     <label htmlFor="privacy" className="ml-2 block text-sm text-gray-700">
-                      I agree to the <a href="#" className="text-blue-600 hover:underline">Privacy Policy</a>
+                    I agree to the <button type="button" className="text-blue-600 hover:underline">Privacy Policy</button>
                     </label>
                   </div>
                   
@@ -217,21 +217,7 @@ const ContactForm = () => {
                     type="submit"
                     className="w-full flex items-center justify-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-800 transition-colors group"
                   >
-                    <div className="relative w-6 h-6 transition-all duration-200 group-hover:-translate-y-1 group-hover:translate-x-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        height="24"
-                        className="absolute"
-                      >
-                        <path fill="none" d="M0 0h24v24H0z"></path>
-                        <path
-                          fill="currentColor"
-                          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-                        ></path>
-                      </svg>
-                    </div>
+                    <FaPaperPlane className="w-5 h-5 transition-all duration-200 group-hover:-translate-y-1 group-hover:translate-x-1" />
                     <span>Send Message</span>
                   </button>
                 </form>

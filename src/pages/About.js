@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Star, Award, Users, Globe, TrendingUp, Shield } from 'lucide-react';
@@ -7,21 +6,15 @@ const About = () => {
   const location = useLocation();
   
   useEffect(() => {
-    // Check if there's a hash in the URL
     if (location.hash) {
-      // Find the element with the matching ID
       const id = location.hash.replace('#', '');
       const element = document.getElementById(id);
-      
-      // If found, scroll to it
       if (element) {
-        // Add a small delay to ensure the page is fully loaded
         setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth' });
         }, 100);
       }
     } else {
-      // If no hash, scroll to top
       window.scrollTo(0, 0);
     }
   }, [location]);
@@ -258,9 +251,12 @@ const TeamSection = () => {
             Our team of 50+ security experts, developers, and customer success professionals work 
             tirelessly to protect our clients' businesses.
           </p>
-          <a href="#" className="text-blue-600 font-medium hover:text-blue-800 transition-colors">
+          <button
+            type="button"
+            className="text-blue-600 font-medium hover:text-blue-800 transition-colors"
+          >
             View all team members
-          </a>
+          </button>
         </div>
       </div>
     </section>

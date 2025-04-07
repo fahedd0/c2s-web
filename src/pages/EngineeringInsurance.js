@@ -4,7 +4,6 @@ import CogIcon from '../assets/EngIns.png';
 import { HardHat, Building, Wrench, Clock, Shield, Construction } from 'lucide-react';
 
 const EngineeringInsurance = () => {
-  // Define the content specific to engineering insurance
   const features = [
     {
       icon: <Construction className="h-6 w-6 text-blue-500" />,

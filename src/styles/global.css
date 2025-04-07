@@ -24,9 +24,8 @@ body {
   margin: 0 auto;
 }
 
-/* Refined blob animation - more subtle */
 .animate-blob {
-  animation: blob 3s infinite ease-in-out; /* Slower, smoother animation */
+  animation: blob 3s infinite ease-in-out;
 }
 
 .animation-delay-2000,
@@ -62,7 +61,7 @@ body {
   transform: translateY(0);
 }
 
-/* Improved hover effects */
+/* hover effects */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -99,7 +98,7 @@ body {
   background: #a8a8a8;
 }
 
-/* Shimmer effect for load states */
+/* effect for load states */
 .shimmer {
   background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
   background-size: 200% 100%;
@@ -115,7 +114,7 @@ body {
   }
 }
 
-/* Improved button styles */
+/* button styles */
 .btn-primary {
   @apply bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition-all duration-300;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -135,7 +134,7 @@ body {
   @apply bg-blue-50 transform -translate-y-1;
 }
 
-/* Enhanced card hover effects */
+/* card hover effects */
 .card-hover {
   transition: all 0.3s ease;
   border: 1px solid transparent;
@@ -163,7 +162,6 @@ body {
   }
 }
 
-/* Glass morphism */
 .glass {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);

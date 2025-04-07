@@ -4,7 +4,6 @@ import HealthIcon from '../assets/HealthIns.png';
 import { Heart, Activity, Clock, Shield, Users, Award } from 'lucide-react';
 
 const HealthInsurance = () => {
-  // Define the content specific to health insurance
   const features = [
     {
       icon: <Heart className="h-6 w-6 text-blue-500" />,

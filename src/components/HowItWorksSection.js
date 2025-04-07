@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CarIcon from '../assets/CarIns.png';
@@ -9,6 +8,8 @@ import PlaneIcon from '../assets/TravelIns.png';
 import CogIcon from '../assets/EngIns.png';
 import DogIcon from '../assets/PetIns.png';
 import HealthIcon from '../assets/HealthIns.png';
+import { HiArrowRight } from 'react-icons/hi';
+
 
 
 const HowItWorksSection = () => {
@@ -85,10 +86,7 @@ const HowItWorksSection = () => {
               <h3 className="text-xl font-bold mb-4 text-gray-800">{solution.title}</h3>
               <p className="text-gray-600 mb-6">{solution.description}</p>
               <Link to={solution.path} className="text-blue-500 hover:text-blue-700 font-medium inline-flex items-center transition-colors">
-                Explore
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                </svg>
+                Explore <HiArrowRight className="w-4 h-4 ml-1" />
               </Link>
             </div>
           ))}

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-// Import your logo - update the path as needed
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -22,7 +21,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu when route changes
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
@@ -80,7 +78,7 @@ const Navbar = () => {
             
             {/* Get Started button */}
             <Link to="/contact" className="ml-6 bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-2.5 rounded-md font-medium transition-all duration-300 shadow-md hover:from-blue-700 hover:to-blue-600 transform hover:-translate-y-1">
-              Get Started
+              Request a demo
             </Link>
           </div>
 

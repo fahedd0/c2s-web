@@ -1,9 +1,7 @@
 import React from 'react';
-// You'll need to import client logos in your assets folder
-// This is a placeholder implementation until you add the actual logos
+// import client logo
 
 const TrustedClientsSection = () => {
-  // Replace these placeholders with actual client data and logos
   const clients = [
     {
       name: "Client1",
@@ -64,7 +62,7 @@ const TrustedClientsSection = () => {
               className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300" 
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              {/* Replace with actual client logos */}
+              {/* logos */}
               <div className="text-2xl font-bold text-gray-500 p-4 min-w-40 text-center hover:text-blue-600 transition-all duration-300">
                 {client.logoText}
               </div>
